@@ -15,7 +15,7 @@ os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = "1"
 
 playlist = "UU3LRlyWVfA3RTKDS_Ryf-4w"
 
-filepath = "BurningSkull.txt"
+filepath = "..\\txt_files\\BurningSkull.txt"
 
 flow = google_auth_oauthlib.flow.InstalledAppFlow.from_client_secrets_file(
     CLIENT_SECRET_FILE, SCOPES)
